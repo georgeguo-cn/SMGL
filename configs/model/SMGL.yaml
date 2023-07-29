@@ -1,0 +1,17 @@
+embedding_size: 64
+feat_embed_dim: 64
+weight_size: [64, 64]
+cf_model: lightgcn
+reg_weight: [1e-05]
+n_mm_layers: 1
+
+# grid search
+# n_ui_layers: [1,2,3,4]
+# ori_mm_k: [50, 100, 150, 200]
+# knn_k: [5, 10, 20, 50, 100, 200]
+# mask_rate: [0.1, 0.2, 0.3, 0.4, 0.6, 0.7, 0.8, 0.9]
+# mm_weight: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+# ssl_weight: [1e-6, 1e-05, 1e-04, 1e-03, 0.01, 0.1]
+# reg_weight: [0, 1e-05, 1e-04, 1e-03, 0.01, 0.1]
+
+hyper_parameters: ["n_ui_layers", "ori_mm_k", "knn_k", "mask_rate", "mm_weight", "ssl_weight", "reg_weight"]

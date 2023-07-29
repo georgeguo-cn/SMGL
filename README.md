@@ -1,2 +1,1 @@
-# SMGL
-This is the pytorch version of SMGL
+This is the Pytorch implementation for our SMGL.
